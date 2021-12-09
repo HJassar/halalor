@@ -1,0 +1,15 @@
+header {
+    align-items: center;
+    flex-grow: .6;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header h1 {
+    margin: 0 0 0.5em;
+}
+
+header, header * {
+    transition: 300ms;
+}

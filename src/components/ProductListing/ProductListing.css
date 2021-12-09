@@ -1,0 +1,37 @@
+.ProductListing {
+    margin-right: 0.5em;
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ProductListing__media {
+    background: #8080ff33;
+    height: 150px;
+}
+
+.ProductListing__details {
+    flex-grow: 1;
+}
+
+.ProductListing__actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ProductListing__actions>* {
+    opacity: 0.3;
+}
+
+.ProductListing__actions>*:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .ProductListing {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+        width: 100%;
+    }
+}
